@@ -3,12 +3,12 @@
   <component name="CopilotDiffPersistence">
     <option name="pendingDiffs">
       <map>
-        <entry key="$PROJECT_DIR$/pytest.ini">
+        <entry key="$PROJECT_DIR$/requirements.txt">
           <value>
             <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/pytest.ini" />
-              <option name="originalContent" value="[pytest]&#10;&#10;addopts = --headed&#10;          --browser=chromium&#10;          --base-url=https://www.saucedemo.com&#10;          --html=/Users/lucky/PycharmProjects/PlaywrightFW1/reports/report.html&#10;          --self-contained-html" />
-              <option name="updatedContent" value="[pytest]&#10;&#10;addopts = --headed&#10;          --browser=chromium&#10;          --base-url=https://www.saucedemo.com" />
+              <option name="filePath" value="$PROJECT_DIR$/requirements.txt" />
+              <option name="originalContent" value="playwright&#10;pytest&#10;pytest-playwright&#10;pytest-html" />
+              <option name="updatedContent" value="playwright&#10;pytest&#10;pytest-playwright&#10;pytest-html&#10;pytest-html" />
             </PendingDiffInfo>
           </value>
         </entry>
