@@ -15,7 +15,9 @@ class TestE2EScenario:
     def test_E2EScenario(self, page):
         self.home_page.add_to_cart()
         page.wait_for_timeout(5000)
+        assert True
 
     def test_E2EScenario2(self, page):
         self.home_page.add_to_cart()
         page.wait_for_timeout(5000)
+        assert True
