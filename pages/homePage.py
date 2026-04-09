@@ -9,3 +9,7 @@ class HomePage:
     def add_to_cart(self):
         self.add_to_cart_button.click()
         expect(self.remove_button).to_be_visible()
+
+    def remove_from_cart(self):
+        self.remove_button.click()
+        expect(self.add_to_cart_button).to_be_visible()
